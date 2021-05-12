@@ -31,7 +31,7 @@ public class JSONDataReader {
 
         List<Report> reports = createReport(data, reportDefinition);
 
-        FileWriter csvWriter = new FileWriter("reports.csv");
+        FileWriter csvWriter = new FileWriter("C:\\Users\\Seyhan\\IdeaProjects\\Mentormate_task\\src\\main\\resources\\reports.csv");
         csvWriter.append("Name");
         csvWriter.append("\t\t\t\t");
         csvWriter.append("Score");
