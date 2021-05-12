@@ -19,7 +19,10 @@ import java.util.Iterator;
  */
 public class App {
     public static void main(String[] args) throws IOException {
-        JSONDataReader jsonDataReader = new JSONDataReader();
-        jsonDataReader.readFileFromCommandLine();
+        try{
+            JSONDataReader jsonDataReader = new JSONDataReader();
+            jsonDataReader.readFileFromCommandLine();
+        } catch (Exception e){e.printStackTrace();}
+
     }
 }
