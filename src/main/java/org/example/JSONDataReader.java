@@ -56,6 +56,7 @@ public class JSONDataReader {
 
             for (Report row : reports) {
                 csvWriter.append(row.getName());
+                csvWriter.append("\t\t\t\t");
                 csvWriter.append(row.getScore().toString());
                 csvWriter.append("\n");
             }
