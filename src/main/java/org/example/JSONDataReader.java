@@ -18,7 +18,6 @@ import java.util.Scanner;
 public class JSONDataReader {
 
     public void readFileFromCommandLine()
-//            throws IOException
     {
         try{
         Scanner sc = new Scanner(System.in);
